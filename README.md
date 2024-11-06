@@ -1,66 +1,45 @@
-<p align="center"> 
-    <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
-</p>
+# Quad Pulse Portfolio
+
+Welcome to my personal portfolio! This project showcases my web development skills, including my work in React, JavaScript, and other web technologies. The portfolio is dynamic, with sections like Home, Education, Experience, Projects, Contact Me, Resume, Skills, Certifications, and more. The content is powered by a JSON file for easy updates and management.
+
+## Live Portfolio
+
+You can view the live version of my portfolio [here](https://personalportfolio-5tub.onrender.com/contact).
+
+## Features
 <p align="center"> 
     <img src="images/image.png" align="center" height="450"></img>
 </p>
-# Sections 📚
 
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\
-✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
-✔️ Contact me
+- **Home**: A brief introduction about myself.
+- **Education**: Details about my academic background.
+- **Experience**: Professional experience and roles.
+- **Projects**: A list of my significant projects with live links.
+- **Contact Me**: Ways to get in touch with me (email, phone).
+- **Resume**: A link to my downloadable resume.
+- **Skills**: List of my technical skills.
+- **Certifications**: Information about certifications I’ve earned.
+- **More**: Additional custom sections can be added as needed.
+
 
 To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
 # Clone and Use 📋
+## Tech Stack
 
-- The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
-- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
-- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-  ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
-  ```
-  This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  ```node
-  npm install
-  ```
-- Now the project is ready to use
-- You can check it using `npm start`, it will open the website locally on your browser.
+- **Frontend**: React.js, CSS
+- **Tools**: Node.js, npm
+- **Other**: JSON (for content management)
 
-# Customize it to make your own portfolio ✏️
+## Installation
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+To run this project locally on your machine, follow the steps below:
 
-### package.json
+### 1. Clone the repository
 
-Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
-
-### Personal Information
-
-You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
-
-```javascript
-// Home Page
-const greeting = {
-    ...
-}
-
-// Social Media
-const socialMediaLinks = {
-    ...
-}
-
-...
-```
-
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+```bash
+git clone https://github.com/yourusername/quad_pulse_my_portfolio.git
+cd quad_pulse_my_portfolio
 
 ### How to change the icons on homepage under what i do section?
 
